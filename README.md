@@ -1,27 +1,13 @@
-# sell
+# vue.js移动端外卖点餐单页应用
 
-> sell app
+> takeaway app
 
-## Build Setup
+项目地址：
+https://github.com/jzz0106/takeaway （git clone）
 
-``` bash
-# install dependencies
+通过npm安装本地服务第三方依赖模块(需要已安装Node.js)<br>
 npm install
 
-# serve with hot reload at localhost:8080
+启动服务(http://localhost:8080)<br>
 npm run dev
 
-# build for production with minification
-npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
