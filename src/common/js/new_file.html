@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		
+		<script>
+			function formatDate(date,fmt) {
+				var reg=/(y+)/;
+				reg.test(fmt);
+				fmt=fmt.replace(RegExp.$1, (date.getFullYear()+'').substr(4-RegExp.$1.length))
+				
+				return fmt
+			}
+			var date= new Date()
+			var current=formatDate(date, 'yy-M-d hh:mm:ss')
+			console.log(current)
+		</script>
+	</body>
+</html>
